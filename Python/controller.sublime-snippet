@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-from ${1:odoo|openerp} import http, tools
-from ${1:odoo|openerp}.http import request
+from ${1:odoo} import http, tools
+from ${1:odoo}.http import request
 
 import logging
 _logger = logging.getLogger(__name__)
